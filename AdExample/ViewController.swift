@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         bannerView.adUnitID = "ca-app-pub-1538489617366643~9846760584"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
+        view.backgroundColor = UIColor.black
         // Do any additional setup after loading the view, typically from a nib.
     }
 
